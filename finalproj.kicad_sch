@@ -1,0 +1,31 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 9fa682e0-b0f5-4fc0-8392-e1e5d9b0026c)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 73.66 66.04) (size 41.91 27.94) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid b708268b-4dc6-4d0c-a819-84cab74b9a85)
+    (property "Sheetname" "STM32 Board" (at 73.66 65.3284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "BotPCB.kicad_sch" (at 73.66 94.5646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "finalproj"
+        (path "/9fa682e0-b0f5-4fc0-8392-e1e5d9b0026c" (page "1"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
